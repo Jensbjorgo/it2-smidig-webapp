@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask - VGS</title>
+    <title>Trenings side</title>
 </head>
 <body>
-    <h1>Hallo, {{navn}}!</h1>
+    <h1>Hallo, velkommen til treningssiden!</h1>
+    <h2>Hva vil du trene i dag? </h2>
+    <input type="text" name="m" placeholder="Search.." value="okt">
+
+    {% for ovelse in resultater %}
+    <tr>
+        <td>{{ ovelse["navn"] }}</td>
+        <td>{{ ovelse["treningstype"] }}</td>
+    </tr>
+{% endfor %}
 </body>
 </html>
 
