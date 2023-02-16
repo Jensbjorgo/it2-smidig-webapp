@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trenings side</title>
+    <link rel="stylesheet" href={{url_for('static', filename="style.css")}}>
 </head>
-<body>
-    <h1>Hallo, velkommen til treningssiden!</h1>
+
+
+
+<header>
+    <h1>Lag din treningsøkt</h1>
     <h2>Hva vil du trene i dag? </h2>
     <form action="/" method="GET">
         <input type="text" name="m" placeholder="Search..">
-        <input type="submit" value="Submit">
     </form>
 
+
+</header>
+<body>
 
 
     {% for ovelse in resultater %}
     <tr>
-        <td>{{ ovelse["navn"] }}</td>
-        <td>{{ ovelse["kroppsparti"] }}</td>
-        <td><img src="{{ ovelse["bilde"] }}" alt=""></td>
+        <tr> <div id="overskrift">{{ ovelse["navn"] }} </div></tr> 
+        <tr>{{ ovelse["kroppsparti"] }}</tr>
+        <tr><img id="brad" src="{{ ovelse["bilde"] }}" alt=""></tr>
+
     </tr>
 {% endfor %}
 </body>
