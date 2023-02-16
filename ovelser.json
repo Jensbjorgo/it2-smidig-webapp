@@ -1,2 +1,29 @@
-[  {    "navn": "Benkpress",    "treningstype": "Bryst og triceps"  },  {    "navn": "Knebøy",    "treningstype": "Lår og rumpe"  },  {    "navn": "Pull-ups",    "treningstype": "Rygg og biceps"  },  {    "navn": "Skulderpress",    "treningstype": "Skuldre og triceps"  },  {    "navn": "Deadlifts",    "treningstype": "Lår, rumpe, rygg og armer"  },  {    "navn": "Lunges",    "treningstype": "Lår og rumpe"  },  {    "navn": "Bicepscurls",    "treningstype": "Biceps"  },  {    "navn": "Tricep pushdowns",    "treningstype": "Triceps"  },  {    "navn": "Push-ups",    "treningstype": "Bryst, triceps og skuldre"  }]
+[  
+{    "navn": "Benkpress",    "treningstype": "Bryst og triceps", "bilde":"https://www.gymgrossisten.no/on/demandware.static/-/Sites-Gymgrossisten-Library/default/dwfe1a19d3/page_designer_articles/slik-blir-du-bedre-i-benkpress2.jpg"},
+{    "navn": "Knebøy",    "treningstype": "Lår og rumpe","bilde":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Squats.svg/380px-Squats.svg.png"  },
+{    "navn": "Pull-ups",    "treningstype": "Rygg og biceps","bilde":"https://muskelbloggis.files.wordpress.com/2014/07/pullup.png"  },
+{    "navn": "Skulderpress",    "treningstype": "Skuldre og triceps","bilde":"https://www.frihetskamp.net/wp-content/uploads/2019/01/military-press2.png"  },
+{    "navn": "Deadlifts",    "treningstype": "Lår, rumpe, rygg og armer","bilde":"https://fitnessvolt.com/wp-content/uploads/2018/11/Dumbbell-deadlift.png"  },
+{    "navn": "Lunges",    "treningstype": "Lår og rumpe","bilde":"https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/15811101-Bodyweight-Rear-Lunge_Thighs_small.jpg"  },
+{    "navn": "Bicepscurls",    "treningstype": "Biceps","bilde":"https://cdn.shopify.com/s/files/1/1075/8446/files/exercise-41.jpg?0"  },
+{    "navn": "Tricep pushdowns",    "treningstype": "Triceps","bilde":"http://cdn.shopify.com/s/files/1/1497/9682/articles/1_1bdead8a-2336-4c6a-bdcc-372e852fd614.jpg?v=1648828865"  },
+{    "navn": "Push-ups",    "treningstype": "Bryst, triceps og skuldre","bilde":"https://static.strengthlevel.com/images/illustrations/push-ups-1000x1000.jpg"  },
+{    "navn": "Turkish get-up",    "treningstype": "kjerne, skulder, hofte","bilde":"https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/05511101-Kettlebell-Turkish-Get-Up-(Squat-style)_Thighs_small.jpg"  },
+{    "navn": "Pistol squats",    "treningstype": "lår","bilde":"https://static.strengthlevel.com/images/illustrations/pistol-squat-1000x1000.jpg"  },
+{    "navn": "ring dips",    "treningstype": "Bryst, triceps og skuldre","bilde":"https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/06771101-Ring-Dips_Upper-Arms_small.jpg"  },
+{    "navn": "dead hang",    "treningstype": "grip og skuldre","bilde":"https://fitnessprogramer.com/wp-content/uploads/2021/02/dead-hang.png"  },
+{    "navn": "Farmers walk",    "treningstype": "grip, kjerne og ben","bilde":"https://www.inspireusafoundation.org/wp-content/uploads/2022/04/farmers-walk-1024x553.png"  },
+{    "navn": "Burpees",    "treningstype": "ben, armer, kjerne","bilde":"https://thebaldbrothers.com/wp-content/uploads/2019/12/Burpees-How-to-.jpg"  },
+{    "navn": "Cable wood chop",    "treningstype": "kjerne, skuldre,rygg","bilde":"https://i.pinimg.com/564x/78/6b/f0/786bf08cde2e3927cf61008959dc8ce3--exercise-cable.jpg"  },
+{    "navn": "Leg press",    "treningstype": "lår","bilde":"https://mobilephysiotherapyclinic.in/wp-content/uploads/2022/03/leg-press-muscles-worked-1280x720.jpg"  },
+{    "navn": "Lat pulldown",    "treningstype": "rygg","bilde":"https://www.inspireusafoundation.org/wp-content/uploads/2021/10/lat-pulldown-1024x797.png"  },
+{    "navn": "Seated row",    "treningstype": "rygg","bilde":"https://cdn.shopify.com/s/files/1/1075/8446/files/exercise-34.jpg?0"  },
+{    "navn": "Tricep pushdown",    "treningstype": "triceps","bilde":"http://cdn.shopify.com/s/files/1/1497/9682/articles/1_1bdead8a-2336-4c6a-bdcc-372e852fd614.jpg?v=1648828865"  },
+{    "navn": "Smith machine lunges",    "treningstype": "lår","bilde":"https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1496703763913-9LXJ4T836QSRF5TQ7GIL/Smith+Machine+Split+Squat"  },
+{    "navn": "Cable hip abduction",    "treningstype": "hofte","bilde":"https://i.pinimg.com/originals/a7/e3/79/a7e3791cabd825b8e730856bfdb17e30.png"  },
+{    "navn": "overhead press",    "treningstype": "Skuldre og triceps","bilde":"https://www.t-nation.com/wp-content/uploads/2019/04/How-to-Do-a-Full-Overhead-Press-Pain-Free.jpg"  },
+{    "navn": "leg curls",    "treningstype": "hamstring","bilde":"https://www.burnthefatinnercircle.com/members/images/1255.jpg?cb=20230213043702"  },
+{    "navn": "planken",    "treningstype": "kjerne og rygg","bilde":"http://www.ingridkristiansen.com/home/wp-content/uploads/2016/04/planke.jpg"}
+
+]
 

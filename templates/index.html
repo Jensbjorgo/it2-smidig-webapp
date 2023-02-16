@@ -9,12 +9,18 @@
 <body>
     <h1>Hallo, velkommen til treningssiden!</h1>
     <h2>Hva vil du trene i dag? </h2>
-    <input type="text" name="m" placeholder="Search.." value="okt">
+    <form action="/" method="GET">
+        <input type="text" name="m" placeholder="Search..">
+        <input type="submit" value="Submit">
+    </form>
+
+
 
     {% for ovelse in resultater %}
     <tr>
         <td>{{ ovelse["navn"] }}</td>
-        <td>{{ ovelse["treningstype"] }}</td>
+        <td>{{ ovelse["kroppsparti"] }}</td>
+        <td><img src="{{ ovelse["bilde"] }}" alt=""></td>
     </tr>
 {% endfor %}
 </body>

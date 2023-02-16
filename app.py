@@ -13,13 +13,13 @@ def sok_ovelse(okt):
     for ovelse in ovelser:
         if okt.lower() in ovelse["navn"].lower() or okt.lower() in ovelse["treningstype"].lower():
             resultater.append(ovelse)
+    print(f"Resultater: {resultater}")
     return resultater
 
 
 
 @app.route("/")
 def index():
-    sok_ovelse("m")
     okt = request.args.get("m")
     if okt:
         resultater = sok_ovelse(okt)
@@ -29,3 +29,6 @@ def index():
     return render_template("index.html",ovelser=ovelser,resultater=resultater,okt=okt)
 
 app.run(debug=True)
+
+
+
