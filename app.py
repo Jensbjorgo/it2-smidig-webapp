@@ -20,13 +20,16 @@ def sok_ovelse(okt):
 
 @app.route("/")
 def index():
-    okt = request.args.get("m")
-    if okt:
-        resultater = sok_ovelse(okt)
-    else:
-        resultater = []
+    try:
+        okt = request.args.get("m")
+        if okt:
+            resultater = sok_ovelse(okt)
+        else:
+            resultater = []
     
-    return render_template("index.html",ovelser=ovelser,resultater=resultater,okt=okt)
+        return render_template("index.html",ovelser=ovelser,resultater=resultater,okt=okt)
+    except:
+        return render_template("error.html")
 
 app.run(debug=True)
 
