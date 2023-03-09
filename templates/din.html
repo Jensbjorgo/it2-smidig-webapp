@@ -1,39 +1,26 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trenings side</title>
+    <title>Document</title>
     <link rel="stylesheet" href={{url_for('static', filename="style.css")}}>
 </head>
-
-
-
-<header>
-    <h1>Lag din treningsøkt</h1>
-    <h2>Hva vil du trene i dag? </h2>
-
-    <div id="hoyre"><a href="/din">Din treningsøkt</a>
-    
-        <form action="/" method="GET">
-            <input type="text" name="m" placeholder="Search..">
-        </form>
-    
-    </div>
-
-
-</header>
 <body>
 
+    <header>
+        <h1> Din treningsøkt</h1>
+    </header>
 
-    {% for ovelse in resultater %}
+    {% for ovelse in ovelser %}
     <tr>
         <tr> <div id="overskrift">{{ ovelse["navn"] }} </div></tr> 
         <tr><img id="brad" src="{{ ovelse["bilde"] }}" alt=""></tr>
 
     </tr>
-{% endfor %}
+{% endfor %}   
+
+    
 </body>
 </html>
-

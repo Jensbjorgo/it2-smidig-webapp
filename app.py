@@ -33,5 +33,9 @@ def index():
 
 app.run(debug=True)
 
+@app.route("/din")
+def dinokt():
+    return render_template("din.html")
+
 
 
